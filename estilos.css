@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+#pag {
+    text-align: center;
+}
+
+header {
+    background-color: #003366;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #00bfff;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav button {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #007acc;
+}
+
+main {
+    padding: 20px;
+}
+
+#contenedor-peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pelicula {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.pelicula img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#paginacion {
+    margin-top: 20px;
+}
+
+#paginacion button {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#paginacion button:hover {
+    background-color: #007acc;
+}
