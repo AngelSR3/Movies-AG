@@ -16,6 +16,7 @@ git clone [https://github.com/AngelSR3/Movies-AG)
   Contacto: 3023562082
 
 Cuenta con toda la lista de peliculas populares, mejor valoradas, proximos estrenos y peliculas en cartelera
+(Basado en una API)
 
 lenguajes utilizados: 
 Html
